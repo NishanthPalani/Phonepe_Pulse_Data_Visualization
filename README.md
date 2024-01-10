@@ -45,7 +45,7 @@ Geo Map for India was built from choropleth using a geojson id for States. Once 
 
 ## *Data Analysis using Streamlit and Plotly*
 
-We have used plotly Pie and Bar charts to seggregate the data based on number of users, Transactions performed. Users can use the friendly enivronment of Streamlit to play with datas by specifying Transaction_type, Year, Qaurter for which they wanted to do analysis. Once the details are selected the Charts will be displayed with the comparison between states, transactions done, Total amount done for each.
+We have used plotly Pie and Bar charts to seggregate the data based on number of users, Transactions performed. Users can use the friendly enivronment of Streamlit to play with datas by specifying Transaction_type, Year, Qaurter for which they wanted to do analysis. Once the details are selected the Charts will be displayed with the comparison between states, transactions done, Total amount done for each selections
 
 
 Hope this project will help you undersatnd the data and get more insights!! Thankyou:) 
