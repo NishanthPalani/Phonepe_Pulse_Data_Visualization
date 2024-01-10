@@ -41,7 +41,7 @@ Below libraires were used to code the project
 
 ## *Usage of Geo Map visualization for India*
 
-Geo Map for India was built from choropleth using a geojson id for States. Once the outline was drawn the actual data was appened by converting it to Dataframe which will locate State wise Transactions and User details. This is made simple for Users to select and give their own set of data from the Select box eg. Type of transactions, year, quarter.. Based on User input the Map will how the range how much contributions were made by each state and which state wins the play for each criteria
+Geo Map for India was built from choropleth using a geojson id for States. Once the outline was drawn the actual data was appened by converting it to Dataframe which will locate State wise Transactions and User details. This is made simple for Users to select and give their own set of data from the Select box eg. Type of transactions, year, quarter.. Based on User input the Map will show the range how much contributions were made by each state and which state wins the play for each criteria
 
 ## *Data Analysis using Streeamlit and Plotly*
 
