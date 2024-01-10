@@ -43,7 +43,7 @@ Below libraires were used to code the project
 
 Geo Map for India was built from choropleth using a geojson id for States. Once the outline was drawn the actual data was appened by converting it to Dataframe which will locate State wise Transactions and User details. This is made simple for Users to select and give their own set of data from the Select box eg. Type of transactions, year, quarter.. Based on User input the Map will show the range how much contributions were made by each state and which state wins the play for each criteria
 
-## *Data Analysis using Streeamlit and Plotly*
+## *Data Analysis using Streamlit and Plotly*
 
 We have used plotly Pie and Bar charts to seggregate the data based on number of users, Transactions performed. Users can use the friendly enivronment of Streamlit to play with datas by specifying Transaction_type, Year, Qaurter for which they wanted to do analysis. Once the details are selected the Charts will be displayed with the comparison between states, transactions done, Total amount done for each.
 
