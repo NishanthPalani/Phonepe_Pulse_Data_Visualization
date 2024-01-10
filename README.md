@@ -9,7 +9,7 @@ Phonepe_Pulse_Data_Visualization aims to give users a friendly environment which
 1.  Technologies used
 1.  Libraries used
 1.  Features
-1.  Usage Geo India map visualization
+1.  Usage of Geo India map visualization
 1.  Data Analysis using Streeamlit and Plotly
 
 
