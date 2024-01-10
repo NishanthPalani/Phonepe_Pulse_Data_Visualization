@@ -2,7 +2,7 @@
 
 ## *Introduction*
 
-Phonepe_Pulse_Data_Visualization aims to give users a friendly environment which can be used to visualize the PhonePe pulse data and gain lots of insights on Transactions, Number of users, Top states and District. We have used Geo India map visualization and some of Bar charts, Pie charts to get more insights. Inorder to achieve a user friendly environment this was built on top of Streamlit Dashboard.
+Phonepe_Pulse_Data_Visualization aims to give users a friendly environment which can be used to visualize the PhonePe pulse data and gain lot of insights on Transactions, Number of users, Top states and District. We have used Geo India map visualization and some of Bar charts, Pie charts to get more insights. Inorder to achieve a user friendly environment this was built on top of Streamlit Dashboard.
 
 ## *Table of Contents*
 
