@@ -7,9 +7,6 @@ import plotly.express as px
 from streamlit_option_menu import option_menu
 import geopandas as go
 
-#https://www.youtube.com/watch?v=49Tg6ypGjgc&t=112s
-#https://www.youtube.com/watch?v=pWxDxhWXJos
-#https://github.com/NishanthPalani/Phonepe_Pulse_Data_Visualization/blob/main/README.md
 
 ## Connecting to MYSQL and storing the table into DataFrame
 myconnection = pymysql.connect(host = '127.0.0.1',user='root',password='admin@123',database = "phonepe_data")
