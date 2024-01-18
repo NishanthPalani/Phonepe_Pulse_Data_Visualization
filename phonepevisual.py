@@ -15,6 +15,7 @@ import geopandas as go
 myconnection = pymysql.connect(host = '127.0.0.1',user='root',password='admin@123',database = "phonepe_data")
 cur = myconnection.cursor()
 
+## Function to retreive data from GIT repository for PhonePe Pulse Data
 def data_retrieve():
     global Agg_Trans
     global Map_Trans
@@ -257,6 +258,7 @@ def data_retrieve():
 
 
 
+## Function to define the SQL Table
 def sql_table_define():
 
     myconnection = pymysql.connect(host = '127.0.0.1',user='root',passwd='admin@123')
@@ -293,6 +295,7 @@ def sql_table_define():
     myconnection.commit()
 
 
+## Function to load the data to SQL Table
 def sql_load():
     sql = "insert into Aggregate_Transaction values(%s,%s,%s,%s,%s,%s)"
     for i in range(0,len(Agg_Trans)):
@@ -335,7 +338,7 @@ def sql_load():
         myconnection.commit()
 
 
-
+## Below steps will retreive data from MYSQL and convert to PANDAS Dataframe
 df_agg_trans = pd.read_sql_query("select * from Aggregate_Transaction;",myconnection)
 df_agg_trans["year"] = df_agg_trans['Year'].astype(str)
 df_agg_trans["Quarter"] = df_agg_trans['Quarter'].astype(str)
@@ -349,7 +352,7 @@ df_top_user_pincode = pd.read_sql_query("select * from Top_Users_Pincode;",mycon
 
 
 
-## Calls convert will convert the Amount fields to rupees format
+## Below Class convert will convert the Amount fields to rupees format
 class convert:
     def millions(transaction):
         a = transaction
@@ -764,8 +767,3 @@ else:
             st.write(fig)
         except:
             pass
-
-    
-
-
-        
